@@ -1,0 +1,106 @@
+/* 
+    Document   : wpvacancylab
+    Created on : 24-Dec-2015, 09:15:45
+    Author     : joe.towner
+    Description:
+        Stylesheet for wpvacancylab
+*/
+
+#wpvacancylab_form {
+    margin: 10px 8%;
+}
+#wpvacancylab_form input[type=text] {
+    width: 32%;
+    display: inline-block;
+    margin-right: 2%;
+}
+#wpvacancylab_form [name=wpvacancylab_location] {
+    width: 32%;
+    display: inline-block;
+    margin-right: 2%;
+}
+#wpvacancylab_form [name=wpvacancylab_position] {
+    width: 32%;
+    display: inline-block;
+}
+#wpvacancylab_form input[type=submit] {
+    display: block;
+    margin-top: 10px;
+}
+#wpvacancylab_form input[type=text], #wpvacancylab_form select {
+    padding: 0.5%;
+    border: 1px solid #DDD;
+}
+
+/*Vacancy*/
+#wpvacancylab_Table{
+    padding: 0 5%;
+}
+#wpvacancylab_vacancy_details {
+    margin: 10px 0;
+}
+#wpvacancylab_vacancy_details label {
+    width: 20%;
+    display: inline-block;
+    margin-right: 3%;
+    vertical-align: top;
+    font-weight: bold;
+}
+#wpvacancylab_vacancy_details div {
+    width: 77%;
+    display: inline-block;
+    vertical-align: top;
+}
+#wpvacancylab_vacancy_details .wpvacancylab_vacancy_details_long {
+    width: 100%;
+    margin: 0;
+}
+
+/*Candidate Form*/
+#wpvacancylab_candidate_form {
+    width: 100%;
+}
+#wpvacancylab_candidate_form th {
+    font-size: 0.8em;
+    text-align: right;
+}
+#wpvacancylab_candidate_form td {
+    font-size: 0.8em;
+}
+.wpvacancylab_declaration {
+    font-size: 0.9em;
+}
+.wpvacancylab_declaration td {
+    text-align: right;
+}
+#wpvacancylab_candidate_form .wpvacancylab_declaration th {
+    text-align: left;
+    font-weight: normal;
+}
+#wpvacancylab_msg span, .wpvacancylab_err th {
+    color: red;
+}
+#wpvacancylab_msg span.success {
+    color: green;
+}
+#wpvacancylab_candidate_form .wpvacancylab_err select, #wpvacancylab_candidate_form .wpvacancylab_err input[type="text"] {
+    border-color: red;
+}
+.wpvacancylab_floatclear {
+    clear: both;
+}
+.wpvacancylab_vacancy_details_button {
+    display: inline-block;
+}
+.wpvacancylab_vacancy_details_button:nth-child(2) {
+    float: right;
+}
+
+/*Widget*/
+.widget_vacancylab select {
+    width: 100%;
+}
+.widget_vacancylab select, .widget_vacancylab input[type=text], #wpvacancylab_candidate_form select, #wpvacancylab_candidate_form input[type=text] {
+    padding: 0.5em;
+    border: 1px solid #DDD;
+}
